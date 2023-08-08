@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link, useLocation } from 'react-router-dom';
 
-function Navigation() {
+export default function Navigation() {
     const currentPage = useLocation().pathname;
 
     return (
@@ -38,5 +38,3 @@ function Navigation() {
         </Navbar>
     );
 }
-
-export default Navigation;
