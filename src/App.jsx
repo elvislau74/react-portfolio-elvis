@@ -1,4 +1,5 @@
-import { useState, Outlet } from 'react'
+import { useState} from 'react'
+import { Outlet } from 'react-router-dom';
 // import './App.css'
 import NavTabs from './components/Nav.jsx'
 

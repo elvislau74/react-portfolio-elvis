@@ -31,6 +31,12 @@ export default function NavTabs() {
                         >
                             Contact
                         </Link>
+                        <Link 
+                            to="/resume"
+                            className={currentPage === "/resume" ? "nav-link active": "nav-link"}
+                        >
+                            Resume
+                        </Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
