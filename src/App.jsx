@@ -1,18 +1,18 @@
-import { useState } from 'react'
-import './App.css'
-import Nav from './components/Nav';
+import { useState, Outlet } from 'react'
+// import './App.css'
+import NavTabs from './components/Nav.jsx'
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <Nav />
+      <NavTabs />
       <main className="mx-3">
         <Outlet />
       </main>
     </>
-  )
+  );
 }
 
 export default App

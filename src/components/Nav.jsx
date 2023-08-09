@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link, useLocation } from 'react-router-dom';
 
-export default function Navigation() {
+export default function NavTabs() {
     const currentPage = useLocation().pathname;
 
     return (
