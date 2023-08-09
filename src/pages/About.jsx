@@ -1,4 +1,5 @@
 import ProfilePic from '../assets/images/prof-pic.jpg'
+import '../styles/About.css';
 
 export default function About() {
     return (

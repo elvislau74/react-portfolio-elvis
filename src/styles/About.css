@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container {
+    background-color: aquamarine;
+}
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

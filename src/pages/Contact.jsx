@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import '../styles/Contact.css';
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from '../utils/helpers';
 
@@ -73,7 +73,7 @@ function Contact() {
           value={message}
           name="message"
           onChange={handleInputChange}
-          type="text"
+          type="textarea"
           placeholder="message"
         />
         {/* TODO Add a `onChange` attribute with a value of `handleInputChange` */}
