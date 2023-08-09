@@ -1,16 +1,17 @@
 import Card from 'react-bootstrap/Card';
 
 export default function ProjectCard(props) {
+    
     return(
         <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Img variant="top" src={props.project.siteImage} />
         <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>{props.project.name}</Card.Title>
             <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Technologies: {props.project.languages}
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            {/* <Button variant="primary"></Button> */}
+            <Card.Link href={props.project.link}>Link to Livesite</Card.Link>
         </Card.Body>
 
         {/* <Card.Body>
