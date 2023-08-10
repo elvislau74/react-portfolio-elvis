@@ -35,7 +35,7 @@ function Contact() {
     e.preventDefault();
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-    if (!validateEmail(email) || !userName) {
+    if (!validateEmail(email) || !name) {
       setErrorMessage('Email or username is invalid');
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
@@ -52,29 +52,32 @@ function Contact() {
 
   return (
     <div className="container text-center">
-      <h1>Hello {name}</h1>
+      <h1>Contact Me</h1>
       <form className="form" onSubmit={handleFormSubmit}>
         <input
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
-          placeholder="email"
+          placeholder="Enter your email"
         />
         <input
           value={name}
           name="name"
           onChange={handleInputChange}
           type="text"
-          placeholder="username"
+          placeholder="Enter your name"
         />
         {/* TODO Add another input field with a value, name, type, and placeholder of "password" */}
-        <input
-          value={message}
-          name="message"
-          onChange={handleInputChange}
-          type="textarea"
-          placeholder="message"
+        <textarea 
+            id="message" 
+            value={message}
+            name="message"
+            onChange={handleInputChange}
+            type="textarea"
+            placeholder="Enter your message here"
+            rows="4" 
+            cols="50"
         />
         {/* TODO Add a `onChange` attribute with a value of `handleInputChange` */}
         <button type="submit">

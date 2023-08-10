@@ -15,8 +15,8 @@ export default function About() {
                     music and watch movies. 
                 </p>
                 <p>
-                    My first experience with coding was in College, where I took a few Computer Science classes. 
-                    Although the debugging process can be annoying sometimes, I find myself really enjoying coding.
+                    My first experience with coding was in College, where I took a few Computer Science courses. 
+                    Although the debugging process can be really troublesome, I find myself really enjoying it.
                 </p>
                 <p>
                     I hope to use everything I have learned to improve and transform any projects you may have. 

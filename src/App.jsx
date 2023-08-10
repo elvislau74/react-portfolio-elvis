@@ -1,6 +1,8 @@
 import { useState} from 'react'
 import { Outlet } from 'react-router-dom';
-// import './App.css'
+import './App.css'
+import TopSection from './components/TopSection';
+import BottomSection from './components/BottomSection';
 import NavTabs from './components/Nav.jsx'
 
 function App() {
@@ -9,9 +11,9 @@ function App() {
   return (
     <>
       <NavTabs />
-      <main className="mx-3">
-        <Outlet />
-      </main>
+      <TopSection />
+      <Outlet />
+      <BottomSection />
     </>
   );
 }
