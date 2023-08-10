@@ -4,10 +4,12 @@ import '../styles/About.css';
 export default function About() {
     return (
         <div className="main-container">
-            <h1>About Me</h1>
+        
             <article className="profile">
+                <h1>About Me</h1>
                 <img className = "profile-pic" src = {ProfilePic} alt = "picture of me"/>
             </article>
+            
             <section className="text-description">
                 <p>
                     Hi, my name is Elvis Lau. I am currently learning to become a Front-End Developer 

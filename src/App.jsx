@@ -14,6 +14,7 @@ function App() {
       <TopSection />
       <Outlet />
       <BottomSection />
+      <div></div>
     </>
   );
 }

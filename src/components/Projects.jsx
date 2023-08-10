@@ -43,17 +43,18 @@ export default function Projects() {
             siteImage: WorkDayScheduler
         },
     ]
-
+    
     return (
         <section>
             <h1>Projects</h1>
             {
                 projs.map((project) => {
-                    <ProjectCard key = {project.id} project = {project} />
+                    return (
+                    <ProjectCard key = {project.id} {...project}/>
+                    )
                 }
                 )
             }
-            
         </section>
     )
 }

@@ -9,3 +9,18 @@ header {
     width: 100%;
     z-index: 2;
 }
+.navigation-bar {
+    opacity: 75%;
+    background-color: gray;
+}
+.full-name {
+    font-weight: bold;
+    color: white;
+}
+.tabs {
+    font-weight: bold;
+    color: white;
+}
+.main-container {
+    display: flex;
+}

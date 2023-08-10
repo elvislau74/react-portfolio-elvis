@@ -9,12 +9,12 @@ export default function NavTabs() {
 
     return (
         <header>
-            <Navbar expand='lg' className='bg-body-tertiary'>
-                <Container className='navigation-bar'>
+            <Navbar expand='lg' className=' navigation-bar'>
+                <Container>
                     <Navbar.Brand className='full-name'>Elvis Lau</Navbar.Brand>
                     <Navbar.Toggle aria-controls='basic-navbar-nav' />
                     <Navbar.Collapse id='basic-navbar-nav'>
-                        <Nav className='ms-auto'>
+                        <Nav className='ms-auto tabs'>
                             <Link
                                 to="/"
                                 className={currentPage === "/" ? "nav-link active" : "nav-link"}
