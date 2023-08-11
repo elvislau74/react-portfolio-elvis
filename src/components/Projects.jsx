@@ -12,28 +12,28 @@ export default function Projects() {
             id: 1,
             name: "End World Thirst",
             link: "https://myrojoylee.github.io/end-world-thirst/",
-            languages: "HTML/CSS/JS",
+            languages: "HTML/CSS/JS/APIs",
             siteImage: EndWorldThirst
         },
         {
             id: 2,
             name: "Lord of the Pies",
             link: "https://lord-of-the-pies-f3c957a9b4a8.herokuapp.com/",
-            languages: "Handlebars/CSS/JS",
+            languages: "Handlebars/CSS/JS/APIs/Express/NodeJS/MySQL/Sequelize",
             siteImage: LordOfTheFlies
         },
         {
             id: 3,
             name: "Duly Noted",
             link: "https://duly-noted-text-editor-5ac1387f2bf2.herokuapp.com/",
-            languages: "HTML/CSS/JS",
+            languages: "HTML/CSS/JS/NodeJS/Express",
             siteImage: DulyNoted
         },
         {
             id: 4,
             name: "Weather Dashboard",
             link: "https://elvislau74.github.io/weather-dashboard/",
-            languages: "HTML/CSS/JS",
+            languages: "HTML/CSS/JS/APIs",
             siteImage: WeatherDashboard
         },
         {

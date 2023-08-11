@@ -33,6 +33,10 @@
   .field-height {
     padding: 10px;
   }
+  .email-link {
+    text-decoration: none;
+    color: black;
+  }
   @media screen and (max-width:767px){
     .form input, .form textarea {
       width: 100%;
