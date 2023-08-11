@@ -33,3 +33,15 @@
   .field-height {
     padding: 10px;
   }
+  @media screen and (max-width:767px){
+    .form input, .form textarea {
+      width: 100%;
+      height: 100%;
+    }
+    .text-center{
+      margin: auto;
+      padding: 20px;
+      align-items: center;
+    }
+    
+}
