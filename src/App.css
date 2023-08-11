@@ -4,7 +4,6 @@
   box-sizing: border-box;
   text-align: center;
   background-color: teal;
-  height: 100%;
 }
 .top{
   height: 40vh;
@@ -21,7 +20,7 @@
   width: 100%;
   margin-bottom: 25px;
   background-image: url("./assets/images/abstractspacepicture.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;

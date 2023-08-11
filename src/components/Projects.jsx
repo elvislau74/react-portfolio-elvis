@@ -4,6 +4,7 @@ import DulyNoted from '../assets/images/duly-noted-text-editor.png'
 import WeatherDashboard from '../assets/images/weather-dashboard-livesite.png'
 import WorkDayScheduler from '../assets/images/work-day-scheduler-page.png'
 import ProjectCard from './ProjectCards'
+import '../styles/Projects.css';
 
 export default function Projects() {
     const projs = [
@@ -47,14 +48,16 @@ export default function Projects() {
     return (
         <section>
             <h1>Projects</h1>
-            {
-                projs.map((project) => {
-                    return (
-                    <ProjectCard key = {project.id} {...project}/>
+            <div className='card-container'>
+                {
+                    projs.map((project) => {
+                        return (
+                        <ProjectCard key = {project.id} {...project}/>
+                        )
+                    }
                     )
                 }
-                )
-            }
+            </div>
         </section>
     )
 }

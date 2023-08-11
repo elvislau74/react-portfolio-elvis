@@ -1,8 +1,22 @@
 .card-container {
     display: flex;
-    flex-direction: column;
-    margin-left: 40px
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px;
+    padding: 5px;
 }
-.spacing {
+.card-padding {
+    padding: 10px;
+}
+h1 {
     margin-bottom: 40px;
+}
+
+.text-spacing {
+    text-align: center;
+}
+
+.image-size {
+    max-height: 200px;
 }

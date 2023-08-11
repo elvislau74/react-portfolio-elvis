@@ -3,12 +3,12 @@ import '../styles/Projects.css';
 
 export default function ProjectCard(props) {
     return(
-        <div className='card-container'>
-            <Card style={{ width: '18rem' }} className='spacing'>
-            <Card.Img variant="top" src={props.siteImage} />
-            <Card.Body>
-                <Card.Title>{props.name}</Card.Title>
-                <Card.Text>
+        <div className='card-padding'>
+            <Card style={{ width: '20rem'}} >
+            <Card.Img variant="top" src={props.siteImage} className='image-size'/>
+            <Card.Body >
+                <Card.Title><h2>{props.name}</h2></Card.Title>
+                <Card.Text className='text-spacing'>
                 Technologies: {props.languages}
                 </Card.Text>
                 <Card.Link href={props.link}>Link to Livesite</Card.Link>
