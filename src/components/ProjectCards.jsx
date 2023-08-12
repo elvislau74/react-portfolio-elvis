@@ -4,7 +4,7 @@ import '../styles/Projects.css';
 export default function ProjectCard(props) {
     return(
         <div className='card-padding'>
-            <Card style={{ width: '20rem'}} >
+            <Card style={{ width: '23rem'}} >
             <Card.Img variant="top" src={props.siteImage} className='image-size'/>
             <Card.Body className='body-size'>
                 <Card.Title><Card.Link 
