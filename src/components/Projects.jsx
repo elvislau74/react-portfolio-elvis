@@ -21,7 +21,7 @@ export default function Projects() {
             name: "Lord of the Pies",
             link: "https://lord-of-the-pies-f3c957a9b4a8.herokuapp.com/",
             githubLink: "https://github.com/myrojoylee/Lord-of-the-Pies",
-            languages: "Handlebars/CSS/JS/APIs/Express/NodeJS/MySQL/Sequelize",
+            languages: "Handlebars/APIs/Express/NodeJS/MySQL/Sequelize",
             siteImage: LordOfTheFlies
         },
         {
@@ -29,7 +29,7 @@ export default function Projects() {
             name: "Duly Noted",
             link: "https://duly-noted-text-editor-5ac1387f2bf2.herokuapp.com/",
             githubLink: "https://github.com/elvislau74/duly-noted",
-            languages: "HTML/CSS/JS/NodeJS/Express",
+            languages: "NodeJS/Express",
             siteImage: DulyNoted
         },
         {
