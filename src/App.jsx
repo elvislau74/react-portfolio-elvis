@@ -4,6 +4,7 @@ import './App.css'
 import TopSection from './components/TopSection';
 import BottomSection from './components/BottomSection';
 import NavTabs from './components/Nav.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -14,7 +15,7 @@ function App() {
       <TopSection />
       <Outlet />
       <BottomSection />
-      <div></div>
+      <Footer />
     </>
   );
 }
