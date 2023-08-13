@@ -12,6 +12,7 @@ export default function Projects() {
             id: 1,
             name: "End World Thirst",
             link: "https://myrojoylee.github.io/end-world-thirst/",
+            githubLink: "https://github.com/myrojoylee/end-world-thirst",
             languages: "HTML/CSS/JS/APIs",
             siteImage: EndWorldThirst
         },
@@ -19,6 +20,7 @@ export default function Projects() {
             id: 2,
             name: "Lord of the Pies",
             link: "https://lord-of-the-pies-f3c957a9b4a8.herokuapp.com/",
+            githubLink: "https://github.com/myrojoylee/Lord-of-the-Pies",
             languages: "Handlebars/CSS/JS/APIs/Express/NodeJS/MySQL/Sequelize",
             siteImage: LordOfTheFlies
         },
@@ -26,6 +28,7 @@ export default function Projects() {
             id: 3,
             name: "Duly Noted",
             link: "https://duly-noted-text-editor-5ac1387f2bf2.herokuapp.com/",
+            githubLink: "https://github.com/elvislau74/duly-noted",
             languages: "HTML/CSS/JS/NodeJS/Express",
             siteImage: DulyNoted
         },
@@ -33,6 +36,7 @@ export default function Projects() {
             id: 4,
             name: "Weather Dashboard",
             link: "https://elvislau74.github.io/weather-dashboard/",
+            githubLink: "https://github.com/elvislau74/weather-dashboard",
             languages: "HTML/CSS/JS/APIs",
             siteImage: WeatherDashboard
         },
@@ -40,6 +44,7 @@ export default function Projects() {
             id: 5,
             name: "Work Day Scheduler",
             link: "https://elvislau74.github.io/work-day-scheduler/",
+            githubLink: "https://github.com/elvislau74/work-day-scheduler",
             languages: "HTML/CSS/JS",
             siteImage: WorkDayScheduler
         },

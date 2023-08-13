@@ -1,16 +1,21 @@
 import Card from 'react-bootstrap/Card';
 import '../styles/Projects.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export default function ProjectCard(props) {
     return(
         <div className='card-padding'>
-            <Card style={{ width: '23rem'}} >
+            <Card style={{ width: '22rem'}} >
             <Card.Img variant="top" src={props.siteImage} className='image-size'/>
             <Card.Body className='body-size'>
                 <Card.Title><Card.Link 
                 href={props.link}
-                className='site-link'><h2>{props.name}</h2>
+                className='site-link'><h2 className='title'>{props.name}</h2>
                 </Card.Link></Card.Title>
+                <Card.Link href={props.githubLink}>
+                    <FontAwesomeIcon icon = {faGithub} className='icon'/>
+                </Card.Link>
                 <Card.Text className='text-spacing'>
                 Technologies: {props.languages}
                 </Card.Text>
@@ -25,6 +30,7 @@ export default function ProjectCard(props) {
             bulk of the card's content.
             </Card.Text>
             <Card.Link href="#">Card Link</Card.Link>
+            <embed src = '../assets/images/github.svg'/>
             <Card.Link href="#">Another Link</Card.Link>
             </Card.Body> */}
             </Card>

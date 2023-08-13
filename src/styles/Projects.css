@@ -26,3 +26,17 @@ h1 {
 .site-link {
     text-decoration: none;
 }
+.icon {
+    height: 30px;
+    color: black;
+}
+.icon:hover {
+    color: gray;
+}
+.title {
+    height: 40px;
+    color: rgb(26, 112, 182);
+}
+.title:hover {
+    color: black;
+}
