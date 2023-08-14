@@ -1,6 +1,8 @@
 import '../styles/Resume.css';
 import resume from '../assets/resume/professionalresume.pdf';
 
+// Creates a page with a list of my proficiencies 
+// and a downloadable link to my resume
 export default function Resume() {
     return (
         <>

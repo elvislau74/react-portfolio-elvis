@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link, useLocation } from 'react-router-dom';
 import '../styles/Nav.css';
 
+// Creates a nav bar with routing to other pages
 export default function NavTabs() {
     const currentPage = useLocation().pathname;
 

@@ -11,7 +11,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-
+// creates routes for each page and component
 const router = createBrowserRouter([
   {
     path: '/',
@@ -38,6 +38,7 @@ const router = createBrowserRouter([
   },
 ]);
 
+// renders our components and app to the page
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
 )

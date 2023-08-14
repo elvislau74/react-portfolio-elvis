@@ -1,6 +1,7 @@
 import ProfilePic from '../assets/images/prof-pic.jpg'
 import '../styles/About.css';
 
+// Creates a page with a few paragraphs about me along with profile picture.
 export default function About() {
     return (
         <div className="main-container">

@@ -1,3 +1,4 @@
+/* Style and spacing for resume page */
 .resume {
     display: flex;
     flex-wrap: wrap;
@@ -7,11 +8,14 @@
 }
 .resume-download a {
     text-decoration: none;
-    color: rgb(43, 43, 194);
+    color: black;
+    font-weight: bold;
 }
 
+/* media screen spacing for mobile devices */
 @media screen and (max-width:767px){
     .resume {
-        justify-content: center;
+        align-items: center;
+        padding: 0;
     }
 }

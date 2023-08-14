@@ -36,14 +36,21 @@ function Contact() {
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
     if (!validateEmail(email) || !name) {
-      setErrorMessage('Email or username is invalid');
+      setErrorMessage('Email or username is invalid.');
       // We want to exit out of this code block if something is wrong so that the user can correct it
+      return;
+    }
+
+    // checks if message field is empty
+    if (!message) {
+      setErrorMessage('You must enter a message.');
+      // exit out of code block
       return;
     }
 
     // If successful, we want to clear out the input after registration.
     setName('');
-    // TODO: Set the password back to an empty string after the user clicks submit
+    // Set the password back to an empty string after the user clicks submit
     setEmail('');
 
     setMessage('');
@@ -72,7 +79,6 @@ function Contact() {
           placeholder="Enter your name"
           className="text-fields field-height"
         />
-        {/* TODO Add another input field with a value, name, type, and placeholder of "password" */}
         <p>Message:</p>
         <textarea 
             id="message" 
@@ -85,7 +91,6 @@ function Contact() {
             cols="50"
             className="text-fields"
         />
-        {/* TODO Add a `onChange` attribute with a value of `handleInputChange` */}
         <button type="submit" className="text-fields">
           Submit
         </button>

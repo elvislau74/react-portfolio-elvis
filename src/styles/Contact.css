@@ -1,9 +1,5 @@
-/* .form {
-    margin: 40px;
-    height: 100%;
-  } */
-  
-  .form input, .form textarea {
+/* styles and spacing for the contact page */
+.form input, .form textarea {
     width: 150%;
     height: 100%;
   }
@@ -37,6 +33,8 @@
     text-decoration: none;
     color: black;
   }
+
+  /* media screen spacing for mobile devices */
   @media screen and (max-width:767px){
     .form input, .form textarea {
       width: 100%;

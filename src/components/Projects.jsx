@@ -6,6 +6,7 @@ import WorkDayScheduler from '../assets/images/work-day-scheduler-page.png'
 import ProjectCard from './ProjectCards'
 import '../styles/Projects.css';
 
+// Creates a array of projects and send them as props to another file to diplay properly
 export default function Projects() {
     const projs = [
         {

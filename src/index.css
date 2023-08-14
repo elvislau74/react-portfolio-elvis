@@ -1,3 +1,4 @@
+/* style and spacing for the main file */
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -24,7 +25,6 @@ a:hover {
 }
 
 body {
-  /* place-items: center; */
   height: 100%;
   width: 100%;
 }
