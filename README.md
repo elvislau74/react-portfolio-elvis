@@ -12,7 +12,7 @@
   
   ![Live Site](./src/assets/images/portfolio-site.png)
 
-  [Click here for the Live Site](elvislau.netlify.app)
+  [Click here for the Live Site](https://elvislau.netlify.app)
 
 
   ## Credits
