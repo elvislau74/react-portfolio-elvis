@@ -3,7 +3,8 @@ import LordOfTheFlies from '../assets/images/lord-of-the-pies-website.png'
 import DulyNoted from '../assets/images/duly-noted-text-editor.png'
 import WeatherDashboard from '../assets/images/weather-dashboard-livesite.png'
 import WorkDayScheduler from '../assets/images/work-day-scheduler-page.png'
-import ProjectCard from './ProjectCards'
+import TicTacToe from '../assets/images/tic-tac-toe-app.png'
+import ProjectCard from './ProjectCards';
 import '../styles/Projects.css';
 
 // Creates a array of projects and send them as props to another file to diplay properly
@@ -11,11 +12,11 @@ export default function Projects() {
     const projs = [
         {
             id: 1,
-            name: "End World Thirst",
-            link: "https://myrojoylee.github.io/end-world-thirst/",
-            githubLink: "https://github.com/myrojoylee/end-world-thirst",
-            languages: "HTML/CSS/JS/APIs",
-            siteImage: EndWorldThirst
+            name: "Tic Tac Toe",
+            link: "https://tic-tac-toe45-a42400054b7f.herokuapp.com/",
+            githubLink: "https://github.com/elvislau74/tic-tac-toe",
+            languages: "MongoDB/Express/React/NodeJS",
+            siteImage: TicTacToe
         },
         {
             id: 2,
@@ -27,6 +28,14 @@ export default function Projects() {
         },
         {
             id: 3,
+            name: "End World Thirst",
+            link: "https://myrojoylee.github.io/end-world-thirst/",
+            githubLink: "https://github.com/myrojoylee/end-world-thirst",
+            languages: "HTML/CSS/JS/APIs",
+            siteImage: EndWorldThirst
+        },
+        {
+            id: 4,
             name: "Duly Noted",
             link: "https://duly-noted-text-editor-5ac1387f2bf2.herokuapp.com/",
             githubLink: "https://github.com/elvislau74/duly-noted",
@@ -34,7 +43,7 @@ export default function Projects() {
             siteImage: DulyNoted
         },
         {
-            id: 4,
+            id: 5,
             name: "Weather Dashboard",
             link: "https://elvislau74.github.io/weather-dashboard/",
             githubLink: "https://github.com/elvislau74/weather-dashboard",
@@ -42,7 +51,7 @@ export default function Projects() {
             siteImage: WeatherDashboard
         },
         {
-            id: 5,
+            id: 6,
             name: "Work Day Scheduler",
             link: "https://elvislau74.github.io/work-day-scheduler/",
             githubLink: "https://github.com/elvislau74/work-day-scheduler",
