@@ -41,3 +41,9 @@ h1 {
 .title:hover {
     color: black;
 }
+.description {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 17px;
+}

@@ -13,7 +13,9 @@ export default function ProjectCard(props) {
                 <Card.Title><Card.Link 
                 href={props.link}
                 className='site-link'><h2 className='title'>{props.name}</h2>
-                </Card.Link></Card.Title>
+                </Card.Link>
+                </Card.Title>
+                <Card.Text className='description'>({props.description})</Card.Text>
                 <Card.Link href={props.githubLink}>
                     <FontAwesomeIcon icon = {faGithub} className='icon'/>
                 </Card.Link>

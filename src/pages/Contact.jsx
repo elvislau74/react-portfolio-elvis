@@ -59,7 +59,7 @@ function Contact() {
 
   return (
     <div className="container text-center">
-      <h1>Send me a message</h1>
+      {/* <h1>Send me a message</h1>
       <form className="form form-width" onSubmit={handleFormSubmit}>
         <p>Email:</p>
         <input
@@ -99,11 +99,12 @@ function Contact() {
         <div>
           <p className="error-text">{errorMessage}</p>
         </div>
-      )}
+      )} */}
       <div>
-        <p>Or, contact me directly through my <a 
+        {/* <p>Or, contact me directly through my <a 
         href="mailto:elvislau74@gmail.com"
-        className="email-link">email</a>.</p>
+        className="email-link">email</a>.</p> */}
+        <p>To contact me, email me at elvislau74@gmail.com</p>
       </div>
     </div>
   );
