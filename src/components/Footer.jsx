@@ -10,7 +10,7 @@ export default function Footer() {
             <a href="https://github.com/elvislau74">
                 <FontAwesomeIcon icon={faGithub} className='github-icon'/>
             </a>
-            <a href="https://www.linkedin.com/in/elvis-lau-83110b274/">
+            <a href="https://www.linkedin.com/in/-elvis-lau/">
                 <FontAwesomeIcon icon={faLinkedin} className='linkedin-icon'/>
             </a>
         </footer>
