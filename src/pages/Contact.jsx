@@ -104,7 +104,9 @@ function Contact() {
         {/* <p>Or, contact me directly through my <a 
         href="mailto:elvislau74@gmail.com"
         className="email-link">email</a>.</p> */}
-        <p>To contact me, email me at elvislau74@gmail.com</p>
+        <p>To contact me, email me at <a 
+        href="mailto:elvislau74@gmail.com"
+        className="email-link">elvislau74@gmail.com</a>.</p>
       </div>
     </div>
   );
